@@ -1,0 +1,346 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    height: 700vh;
+    width: 100vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.viedo1{
+    width: 100%;
+    height: 1150px;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.black-hading-1st{
+    border: 2px solid black;
+    background: green;
+    width: 100%;
+    height: 170px;
+    color: whitesmoke;
+    position: relative;
+}
+
+#city{
+    margin-left: 100px;
+    font-size:xx-large ;
+    font-weight: bold;
+}
+
+.nav-home-contact{
+    margin-left: 80%;
+    margin-top: 15px;
+    word-spacing: 45px;
+    font-weight: bold;
+    font-size: larger;
+    cursor: pointer;
+}
+
+#licence{
+    margin: 120px;
+    font-size: xx-large;
+    margin-top: 5rem;
+    padding: 10px;
+}
+
+.black-hading-2nd{
+    position: relative;
+    border: 2px solid black;
+    width: 100%;
+    height: 600px;
+    background-color: green;
+    color: whitesmoke;
+    margin-top:50% ;
+    padding: 160px;
+}
+
+.p-thought{
+    font-size: x-large;
+}
+
+.list-itmes-black2{
+    padding: 50px;
+    font-size: x-large;
+    color: blue;
+}
+
+.property-image{
+    width: 100%;
+    height: 950px;
+}
+
+.black-hading-3rd{
+    border: 2px solid black;
+    width: 100%;
+    height: 2150px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.amenities{
+    text-align: center;
+    padding-top:50px ;
+    font-size:90px;
+}
+
+.para-hading{
+    text-align: center;
+    padding-top: 40px;
+    font-size: xx-large;
+}
+
+.all-image-1{
+    display: flex;
+    margin-top: 10em;
+}
+
+.park-image{
+    height: 200px;
+    margin-left: 250px;
+   margin-top: 10px;
+   border-radius: 50%;
+}
+
+.gernal-image{
+    height: 200px;
+    margin-left: 240px;
+}
+
+.school-image{
+    height: 200px;
+    margin-left: 230px;
+    border-radius: 50%;
+}
+
+.all-hading-1{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#park{
+    margin-left: 5em;
+}
+
+.park-points{
+    margin-top: 60px;
+    margin-left: 280px;
+    font-size: x-large;
+}
+
+.center-image{
+    margin-top: 15em;
+    margin-left: 15em; 
+}
+
+.safety-image{
+    margin-left: 20em;
+    border-radius: 50%; 
+    height: 250px;
+}
+
+.airport-image{
+    height: 180px;
+    margin-left:16em ;
+}
+
+.high{
+    text-align: center;
+    margin-top: 2em;
+    font-size: 90px;
+}
+
+.high-image{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5em;
+}
+
+.high-hading{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+    font-size: xx-large;
+}
+
+.black-hading-4th{
+    border: 2px solid black;
+    height: 700px;
+    background-color: green;
+    color: whitesmoke;
+}
+
+.services{
+    text-align: center;
+    margin-top: 0.5em;
+    font-size: 90px;
+}
+
+.services-images{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+
+.bank-image{
+    width: 400px;
+}
+
+.network-image{
+    width: 400px;
+}
+
+.rain-image{
+    width: 400px;
+}
+
+.services-hading{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+    font-size: 30px;
+}
+
+.network-hading{
+    text-align: center;
+}
+
+.black-hading-5th{
+    border: 2px solid black;
+    height: 700px;
+    background-color: black;
+    color: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-line{
+    text-align: center;
+    margin-top: 1em;
+    font-size: 60px;
+}
+
+.contact-hading{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top:5em;
+    font-size: 20px;
+}
+
+.details{
+    text-align: center;
+    margin-top: 5em;
+    font-size: x-large;
+}
+
+
+.text{
+    margin-top: 6em;
+    margin-left: 5em;
+}
+
+#name{
+    font-size: 45px;
+    color: gray;
+}
+
+#naam{
+    padding: 1em;
+    margin-left: 0.5em;
+}
+
+#mail{
+    padding: 1em;
+    margin-left: 0.5;
+}
+
+#email{
+    font-size: 45px;
+    margin-left: 2em;
+    color: gray;
+}
+
+.phone{
+    margin-top: 3em;
+    margin-left: 5em;
+}
+
+.teli{
+    font-size: 50px;
+    color: gray;
+}
+
+.teli-text{
+    padding: 1em;
+    margin-left: 1em;
+}
+
+.mess{
+    text-align: center;
+    margin-top: 4em;
+}
+
+.message{
+    font-size: 4em;
+    color: gray;
+}
+
+#messa{
+    margin-top: 2em;
+    width: 450px;
+    height: 100px;
+}
+
+button{
+    margin-top: 3em;
+    margin-left: 20em;
+    width: 250px;
+    height: 80px;
+    font-size: large;
+    background-color:greenyellow;
+    font-weight: bolder;
+}
+
+button:hover{
+    background-color: green;
+    color: black;
+    font-weight: bold;
+}
+
+.black-hading-6th{
+    border: 2px solid black;
+    height: 100px;
+    background-color: aqua;
+}
+
+.vdl{
+    text-align: center;
+    margin-top: 0.2em;
+    font-size: xx-large;
+}
+
+.icon{
+    margin-left: 0.8em;
+    font-size: 30px;
+    word-spacing: 8px;
+    cursor: pointer;
+}
+
+.sembols{
+    margin-left: 20em;
+}
+
+.mobile{
+    margin-left: 12em;
+}
